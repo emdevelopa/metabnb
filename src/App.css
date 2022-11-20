@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.n{
+  position: relative;
+  margin: 4em;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.m-c{
+  position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.m-c ul{
+    width: 40%;
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.m-c ul li{
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+.logo {
+  margin: 0;
+  display: flex;
+  position: absolute;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(91.47deg, #DC3E88 18.25%, #B840AE 43.34%, #843FE8 78.18%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.h-l-c{
+  position: relative;
+}
+.winlogo{
+  position: absolute;
+  
+  top: 40%;
+  left: 50%;
+}
+.connect-btn{
+  padding: 1em 4em;
+  font-weight: bold;
+  font-size: 12px;
+  background: #A02279;
   color: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+ section{
+  padding: 6em 0;
+  display: flex;
+  align-items: center;
+} 
+section .t-s{
+  width: 50%;
 }
+section .t-s h1{
+  font-size: 48px;
+  line-height: 1.5em;
+}
+section .t-s p{
+  font-size: 18px;
+  line-height: 1.5em;
+}
+section .t-s span{
+  color: #c91690;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+section .search-container{
+  display: flex;
+}
+section .search-container input{
+  margin-top: 3em;
+  border-radius: 5px 0 0 5px;
+  padding:0 1.5em;
+  width:60%;
+  font-size: 14px;
+  height: 60px;
+}
+section .search-container button{
+  margin-top: 3.5em;
+  height: 60px;
+  padding:0 4em;
+  border-radius: 0 5px 5px 0;
+  background:#A02279;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+section .search-container button,section .search-container input{
+  border: 1px solid grey;
+  outline: none;
 }
