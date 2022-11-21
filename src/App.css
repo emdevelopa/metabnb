@@ -224,5 +224,8 @@ section .search-container button,section .search-container input{
     top: 0;
     left: 0;
   }
-  
+  .n{
+    position: relative;
+    margin: 2em;
+  }
 }
