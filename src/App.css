@@ -3,12 +3,19 @@ body{
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+*{
+  overflow-x: hidden;
+  /* scrollbar-width: ; */
 }
 .n{
   position: relative;
   margin: 4em;
+  
 }
 .m-c{
+  
   position: relative;
   display: flex;
   flex-direction: row;
@@ -16,6 +23,7 @@ body{
   align-items: center;
 }
 .m-c ul{
+  
     width: 40%;
     margin-left: 30%;
     display: flex;
@@ -29,6 +37,7 @@ body{
   list-style: none;
 }
 .logo {
+  
   margin: 0;
   display: flex;
   position: absolute;
@@ -56,6 +65,9 @@ body{
   border: none;
   outline: none;
   border-radius: 10px;
+}
+.menu{
+  display: none;
 }
  section{
   padding: 6em 0;
@@ -101,4 +113,116 @@ section .search-container button{
 section .search-container button,section .search-container input{
   border: 1px solid grey;
   outline: none;
+}
+.img-section{
+  position: relative;
+  width: 50%;
+  height: 40em;
+  /* background-color: #843FE8; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.frst{
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+}
+.snd{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+.img-ss{
+  display: flex;
+  flex-direction: column;
+}
+.img-section  img{
+  width: 200px;
+ margin-bottom: 10px;
+}.in{
+  display: none;
+}
+@media(max-width:1290px){
+  section{
+    flex-direction: column;
+  }
+  .img-section{
+    width: 80%;
+  }
+  section .t-s{
+    width:100%;
+  }
+}
+@media(max-width:870px){
+ body{
+  /* background-color: #B840AE; */
+  overflow-x: hidden;
+ }
+ .out{
+  display: none;
+ }
+ .menu{
+  display: block;
+  padding: 1em 2em;
+  font-weight: bold;
+  font-size: 12px;
+  background: #A02279;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-left: 80%;
+  /* margin-bottom: 5px; */
+  cursor: pointer;
+ }
+ .m-c ul{
+  border-radius:  5px;
+  width: 50%;
+  height: 60vh;
+  top: 40%;
+  margin-top: 2em;
+  right: 0;
+  background-color: #ae6ba9;
+  transform: translateX(100%);
+  margin-right:-15em ;
+  line-height: 10vh;
+  position: absolute;
+  flex-direction: column;
+}
+.connect-btn{
+  margin-left:50% ;
+}
+}
+@media(max-width:390px){
+  .t-s h1{
+    font-size: 32px!important;
+  }
+  .logo{
+    
+    font-size: 24px;
+    
+  }
+  .logo img{
+    width: 30px;
+  }
+  .logo .winlogo{
+    display: none;
+  }
+  .menu{
+    margin-left: 60%;
+  }
+  .img-section{
+    flex-direction: column;
+    height: 60em;
+    justify-content: center;
+    align-items: center;
+  }
+  .frst,.snd{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
 }
