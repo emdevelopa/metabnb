@@ -1,3 +1,4 @@
+import React,{useState} from "react";
 import house from "./logo/metahomelogo.png";
 import window from "./logo/metawindow.png";
 import img1 from "./sec1_img/img1.png";
@@ -5,6 +6,10 @@ import img2 from "./sec1_img/img2.png";
 import img3 from "./sec1_img/img3.png";
 import img4 from "./sec1_img/img4.png";
 function Home() {
+    const [active,setActive] = useState(false);
+    const handleClick = ()=>{
+        setActive(!active)
+    };
   return (
     <>
       <div className="n">
@@ -16,7 +21,7 @@ function Home() {
             </div>
             Metabnb
           </h1>
-          <ul>
+          <ul className="nul" id="b4">
             <li>Home</li>
             <li>Place to stay</li>
             <li>NFTs</li>
@@ -24,10 +29,17 @@ function Home() {
             <button className="connect-btn in">Connect wallet</button>
           </ul>
           <button className="connect-btn out">Connect wallet</button>
-          <button className='menu'>Menu</button>
+          <button onClick={handleClick} className="menu">Menu</button>
         </div>
+        <ul className="nul phon" id={active ? "b4":"aft"}>
+            <li>Home</li>
+            <li>Place to stay</li>
+            <li>NFTs</li>
+            <li>Community</li>
+            <button className="connect-btn in">Connect wallet</button>
+          </ul>
         <section>
-          <div className="t-s">
+          <div className="t-s" >
             <h1>
               Rent a <span>Place</span> away from <br />
               <span>Home</span> in the <span>Metaverse</span>
