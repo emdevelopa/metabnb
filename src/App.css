@@ -15,7 +15,7 @@ body{
   
 }
 .m-c{
-  
+  overflow-y: hidden;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -70,7 +70,7 @@ body{
   display: none;
 }
  section{
-  padding: 6em 0;
+  /* padding: 6em 0; */
   display: flex;
   align-items: center;
 } 
@@ -143,6 +143,17 @@ section .search-container button,section .search-container input{
  margin-bottom: 10px;
 }.in{
   display: none;
+}
+.row-tab{
+  background-color: #A02279;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.row-tab h3{
+  color: #fff;
+  font-size: 22px;
 }
 @media(max-width:1290px){
   section{

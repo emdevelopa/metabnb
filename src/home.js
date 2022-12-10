@@ -54,7 +54,13 @@ function Home() {
           </div>
         </section>
       </div>
+      <div className="row-tab">
+        <h3>MBToken</h3>
+        <h3>METAMASK</h3>
+        <h3>Opensea</h3>
+      </div>
     </>
   );
 }
 export default Home;
+
