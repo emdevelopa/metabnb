@@ -230,7 +230,9 @@ section .search-container button,section .search-container input{
   cursor: pointer;
   display: block;
   margin-left: 0%!important;
+  padding: 1em;
 }
+
 .connect-btn{
   margin-left:50% ;
 }
