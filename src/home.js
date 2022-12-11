@@ -31,7 +31,7 @@ function Home() {
           <button className="connect-btn out">Connect wallet</button>
           <button onClick={handleClick} className="menu">Menu</button>
         </div>
-        <ul className="nul phon" id={active ? "b4":"aft"}>
+        <ul className="nul phon" id={active ? "aft":"b4"}>
             <li>Home</li>
             <li>Place to stay</li>
             <li>NFTs</li>
