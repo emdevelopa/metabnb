@@ -5,6 +5,17 @@ import img1 from "./sec1_img/img1.png";
 import img2 from "./sec1_img/img2.png";
 import img3 from "./sec1_img/img3.png";
 import img4 from "./sec1_img/img4.png";
+import metat from "./oimg/Group4038.png";
+import metat2 from "./oimg/Group59536.png";
+import metat3 from "./oimg/logo.png";
+import prodimg1 from "./prod_img/image1.png";
+import prodimg2 from "./prod_img/image2.png";
+import prodimg3 from "./prod_img/image3.png";
+import prodimg4 from "./prod_img/image4.png";
+import prodimg5 from "./prod_img/image5.png";
+import prodimg6 from "./prod_img/image6.png";
+import prodimg7 from "./prod_img/image7.png";
+import prodimg8 from "./prod_img/image8.png";
 function Home() {
     const [active,setActive] = useState(false);
     const handleClick = ()=>{
@@ -67,10 +78,23 @@ function Home() {
         </section>
       </div>
       <div className="row-tab">
-        <h3>MBToken</h3>
-        <h3>METAMASK</h3>
-        <h3>Opensea</h3>
+        <div className="r-t"><img src={metat2} alt="" /><h3>MBToken</h3></div>
+        <div className="r-t"><img src={metat} alt="" /><h3>METAMASK</h3></div>
+        <div className="r-t"><img src={metat3} alt="" /><h3>Opensea</h3></div>
       </div>
+      <section className="prod-sec">
+        <h1>Inspiration for your next adventure</h1>
+        <div className="prod">
+            <img src={prodimg1} alt="" />
+            <img src={prodimg2} alt="" />
+            <img src={prodimg3} alt="" />
+            <img src={prodimg4} alt="" />
+            <img src={prodimg5} alt="" />
+            <img src={prodimg6} alt="" />
+            <img src={prodimg7} alt="" />
+            <img src={prodimg8} alt="" />
+        </div>
+      </section>
     </>
   );
 }
