@@ -308,4 +308,7 @@ section .search-container button,section .search-container input{
   .prod-sec h1{
     font-size: 18px;
   }
+  .prod-sec .prod img{
+    width: 10em;
+  }
 }
