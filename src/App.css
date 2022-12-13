@@ -311,7 +311,7 @@ section .search-container button,section .search-container input{
   .prod-sec .prod img{
     width: 16em;
   }
-  #b4{
-    color: #fff;
+  .nul li{
+    color: #fff!important;
   }
 }
