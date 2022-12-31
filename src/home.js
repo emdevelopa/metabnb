@@ -16,6 +16,11 @@ import prodimg5 from "./prod_img/image5.png";
 import prodimg6 from "./prod_img/image6.png";
 import prodimg7 from "./prod_img/image7.png";
 import prodimg8 from "./prod_img/image8.png";
+import mtb_nft_img from "./sec1_img/3d.png";
+import f_img from "./footer_img/Group.png";
+import fb from "./footer_img/fb.png";
+import ig from "./footer_img/ig.png";
+import tw from "./footer_img/tw.png";
 function Home() {
     const [active,setActive] = useState(false);
     const handleClick = ()=>{
@@ -95,6 +100,58 @@ function Home() {
             <img src={prodimg8} alt="" />
         </div>
       </section>
+      <section className="mtb-nft">
+        <div className="f-s">
+          <h2>Metabnb NFTs</h2>
+          <p>Discover our NFT gift cards collection. Loyal <br /> customers gets amazing gift cards which are<br /> traded as NFTs. These NFTs gives our cutomer<br /> access to loads of our exclusive services.</p>
+
+          <button>Learn more</button>
+        </div>
+        <div className="s-s">
+          <img src={mtb_nft_img} alt=""/>
+        </div>
+       
+      </section>
+      <footer>
+          <div className="f-c">
+            <img className="f-l" src={f_img} alt=""/>
+            <div className="f-icons">
+              <img src={fb} alt="" />
+              <img src={ig} alt="" />
+              <img src={tw} alt="" />
+            </div>
+            <p>&copy; 2022 Metabnb</p>
+          </div>
+          <div className="s-c">
+            <h2>Community</h2>
+            <ul>
+              <li><a href="#">NFT</a></li>
+              <li><a href="#">Tokens</a></li>
+              <li><a href="#">Landlords</a></li>
+              <li><a href="#">Discord</a></li>
+            </ul>
+          </div>
+          <div className="s-c">
+            <h2>Community</h2>
+            <ul>
+              <li><a href="#">NFT</a></li>
+              <li><a href="#">Tokens</a></li>
+              <li><a href="#">Landlords</a></li>
+              <li><a href="#">Discord</a></li>
+            </ul>
+          </div>
+          <div className="s-c">
+            <h2>Community</h2>
+            <ul>
+              <li><a href="/">NFT</a></li>
+              <li><a href="/">Tokens</a></li>
+              <li><a href="/">Landlords</a></li>
+              <li><a href="/">Discord</a></li>
+            </ul>
+          </div>
+          {/* <div className="th-c"></div>
+          <div className="ft-c"></div> */}
+        </footer>
     </>
   );
 }
