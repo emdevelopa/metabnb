@@ -389,7 +389,7 @@ margin: 0 0 8em 0;
     margin: 1em 0 0 0;
   }
   .f-s p{
-    font-size: 14px;
+    font-size: 12px;
   }
   .s-s{
     width: 100%;
@@ -397,7 +397,7 @@ margin: 0 0 8em 0;
     text-align: center;
   }
   .s-s img{
-    width: 24em;
+    width: 18em;
   }
   footer{
     flex-direction: column;
