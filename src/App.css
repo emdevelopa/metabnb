@@ -300,7 +300,7 @@ margin: 0 0 8em 0;
   line-height: 10vh;
   position: absolute;
   flex-direction: column;
-  transition: all 2s ease;
+  transition: all 1s ease;
 }
 #aft{
   /* z-index: 6; */
@@ -313,7 +313,7 @@ margin: 0 0 8em 0;
   background-color: #ae6ba9;
   transform: translateX(0%);
   /* margin-right:-1em ; */
-  transition: all 2s ease;
+  transition: all 1s ease;
   line-height: 10vh;
   position: absolute;
   flex-direction: column;
