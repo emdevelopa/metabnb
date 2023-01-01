@@ -132,21 +132,21 @@ function Home() {
             </ul>
           </div>
           <div className="s-c">
-            <h2>Community</h2>
+            <h2>Places</h2>
             <ul>
-              <li><a href="#">NFT</a></li>
-              <li><a href="#">Tokens</a></li>
-              <li><a href="#">Landlords</a></li>
-              <li><a href="#">Discord</a></li>
+              <li><a href="#">Castle</a></li>
+              <li><a href="#">Farms</a></li>
+              <li><a href="#">Beach</a></li>
+              <li><a href="#">Learn more</a></li>
             </ul>
           </div>
           <div className="s-c">
-            <h2>Community</h2>
+            <h2>About us</h2>
             <ul>
-              <li><a href="/">NFT</a></li>
-              <li><a href="/">Tokens</a></li>
-              <li><a href="/">Landlords</a></li>
-              <li><a href="/">Discord</a></li>
+              <li><a href="/">Road map</a></li>
+              <li><a href="/">Creators</a></li>
+              <li><a href="/">Career</a></li>
+              <li><a href="/">Contact us</a></li>
             </ul>
           </div>
           {/* <div className="th-c"></div>

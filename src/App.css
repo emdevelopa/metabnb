@@ -399,4 +399,7 @@ margin: 0 0 8em 0;
   .s-s img{
     width: 24em;
   }
+  footer{
+    flex-direction: column;
+  }
 }
