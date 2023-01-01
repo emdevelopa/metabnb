@@ -149,8 +149,7 @@ function Home() {
               <li><a href="/">Contact us</a></li>
             </ul>
           </div>
-          {/* <div className="th-c"></div>
-          <div className="ft-c"></div> */}
+        
         </footer>
     </>
   );
